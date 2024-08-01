@@ -4,9 +4,9 @@ public class WhileLoop {
             System.out.println("reslut in forLoop"+i);
         }
         int iWhile = 1;
-        while(iWhile <= 10){
-            System.out.println("reslut in WhileLoop"+iWhile);
-            iWhile += 2;
+        while(iWhile <= 5){
+            System.out.println("hello");
+            iWhile++;
         }
     }
 }

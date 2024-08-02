@@ -3,10 +3,11 @@ public class Local2 {
         int x = 5;
         System.out.println("x = "+x);
         one();
+        x = 10;
         System.out.println("x = "+x);
     }
     public static void one() {
-        int x = 10;
+        int x = 3;
         System.out.println("x = "+x);
     }
 }

@@ -5,13 +5,15 @@ public class SameArray2 {
     for(int i = 0; i < array1.length; i++){
         array2[i] = array1[i];
     }
+    array1[0] = 200;
+    array2[4] = 1000;
     System.out.println("array1");
     for(int i = 0; i < array1.length; i++){
-        System.out.println(array1[i]+" ");
+        System.out.print(array1[i]+" ");
     }
     System.out.println("array2");
     for(int i = 0; i < array2.length; i++){
-        System.out.println(array1[i]+" ");
+        System.out.print(array1[i]+" ");
     }
  }   
 }

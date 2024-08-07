@@ -8,6 +8,6 @@ public class ArrayListDemo1 {
         System.out.println("The ArrayList has"+nameList.size()+"objects stored in it.");
         for(int index = 0; index < nameList.size(); index++){
         System.out.println(nameList.get(index));
-    }
+        }
     }
 }

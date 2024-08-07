@@ -8,5 +8,6 @@ public class Cal_Max {
         System.out.println("Input number 2 : ");
         num2 = stdin.nextInt();
         int larger = TestMax.max(num1,num2);
+        System.out.println("Max Deta is "+larger);
     }
 }
